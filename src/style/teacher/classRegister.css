@@ -1,0 +1,62 @@
+.table_wrapper {
+    margin: 10px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(153, 89, 15);
+}
+
+td {
+    border-top: 1px solid rgb(184, 118, 21);
+    line-height: 50px;
+}
+
+th {
+    padding:5px;
+    text-align: center;
+}
+.student_name{
+    color:rgb(131, 50, 3);
+    font-family: serif;
+    width:200px;
+    font-size: 20px;
+    
+}
+
+.marks{
+    width: 300px;
+    max-width: 400px;
+   text-align-last: left;
+   border-left:1px solid rgb(172, 95, 24);
+   border-right: 1px solid rgb(139, 83, 29);
+   
+}
+
+.mark{
+  display:inline-block;
+  
+    height: 20px;
+    font-size: 13px;
+   
+}
+
+.btn-update {
+    color: rgb(90, 55, 55);
+    height: 30px;
+    background-color: rgb(247, 190, 171);
+    border: 1px solid rgb(197, 114, 36);
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.btn-update:hover{
+    background-color: coral;
+}

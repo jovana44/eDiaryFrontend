@@ -1,0 +1,81 @@
+.back{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/linen-background.jpg');
+}
+.login_form {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+form {
+    min-height: 300px;
+    width: 300px;
+    border: 1px solid #adb0b3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 237, 230);
+}
+
+.register {
+    min-height: 400px !important;
+}
+
+input {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(231, 213, 198);
+}
+
+input:hover, input:active, input:focus {
+    text-decoration: none;
+}
+
+.submit {
+    margin-top: 20px;
+    color: #20232a;
+    height: 40px;
+    background-color: rgb(245, 184, 105);
+}
+
+.cancel {
+    color: #20232a;
+    height: 40px;
+    background-color: rgb(251, 166, 97);
+}
+
+.submit:disabled {
+    background-color: #cccccc;
+    color: rgb(99, 71, 71);
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    max-width: 200px;
+    color: black;
+}
+
+.info a {
+    color:rgb(80, 66, 57);
+}

@@ -1,0 +1,38 @@
+.teacher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-image:  url('../images/linen-background.jpg');
+}
+
+.teacher_form{
+    width:40%;
+    padding: 10px;
+    text-align: justify;
+    margin-top:10px;
+}
+
+input[type=checkbox]:checked + span{
+    color: #f00;
+    
+  } 
+
+  .sub{
+    margin-top:10px;
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+
+  .pick{
+      padding:3px;
+      font-size: 15px;
+      font:inherit;
+    margin-top:5px;
+    margin-bottom: 5px;
+    color:rgb(134, 57, 38);
+  }
+ 
+  .subjects{
+      margin-bottom: 10px;
+  }

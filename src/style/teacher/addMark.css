@@ -1,0 +1,58 @@
+input[type=radio] + label {
+    color: rgb(112, 105, 105);
+    font-style: italic;
+      align-content: center;
+    font-size:25px;
+    
+  } 
+  input[type=radio]{
+    position: absolute;
+    
+  }
+
+input[type=radio]:checked + label {
+    color: #f00;
+    font-style: normal;
+  
+    
+  } 
+
+
+select {
+    width: 70%;
+    padding: 10px 10px;
+    border: 1px solid rgb(219, 157, 106);
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin:5px;
+    margin-bottom: 10px;
+    font-size:15px;
+    color:rgb(90, 66, 57);
+  }
+  option{
+    cursor: pointer;
+    height: 40px;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(248, 185, 133);
+    border: none;
+    color: rgb(116, 64, 35);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .container{
+    padding: 20px;
+    width:400px;
+  }
+
+  .activity{
+    font-size:14px;
+   color:rgb(95, 74, 59);
+  }
+  
+
+  

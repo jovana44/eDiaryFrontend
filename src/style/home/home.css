@@ -1,0 +1,24 @@
+.app {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/linen-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(40, 44, 52);
+}
+
+.app_title {
+    font-size: 24px;
+    font-weight: bold;  
+    margin-left: 50px;
+}
+
+.app_text {
+    font-size: 20px;
+    font-weight: 600;  
+    margin-left: 50px;
+}
